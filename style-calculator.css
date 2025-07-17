@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 200px;
+}
+h1{
+    position:absolute;
+    top:100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.outer{
+    background-color: black;
+    padding:20px;
+    border-radius:10px;
+}
+#box{
+    font-size:25px;
+    border:2px solid black;
+    width:292px;
+    border-radius: 10px;
+
+}
+button{
+    border: 2px solid black;
+    width:58px;
+    height:50px;
+    font-size:18px;
+    background-color: grey;
+    color:white;
+    border-radius: 20px;
+}
+.buttons{
+    
+    margin-top: 5px;;
+    display:flex;
+    
+    width:300px;
+    flex-wrap:wrap;
+    gap:2px;
+    
+}
+#equal{
+    width:178px;
+}
